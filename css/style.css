@@ -1,0 +1,157 @@
+#header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin: 60px auto;
+  background-color: rgba(183, 140, 247, 0.452);
+  border-radius: 8mm;
+  z-index: 5;
+}
+#header .res-icon {
+  display: none;
+}
+#header .logo {
+  width: 10%;
+}
+#header .logo img {
+  width: 100%;
+}
+#header .nav-menu {
+  width: 70%;
+}
+#header .nav-menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 35px 20px;
+  display: block;
+}
+#header .nav-menu ul li.about {
+  position: relative;
+}
+#header .nav-menu ul li.about:hover .dropped-about {
+  opacity: 1;
+  visibility: visible;
+}
+#header .nav-menu ul li.about .dropped-about {
+  border: 2px solid red;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+#header .nav-tel {
+  width: 20%;
+}
+#header .nav-tel a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  #header {
+    width: 100%;
+    background-color: blue;
+    margin: 0%;
+    border-radius: 0%;
+  }
+  #header .res-icon {
+    display: block;
+    margin: 0 20px;
+    color: whitesmoke;
+  }
+  #header .logo {
+    width: 30%;
+  }
+  #header .nav-menu {
+    display: none;
+  }
+  #header .nav-tel {
+    display: none;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+#sectionOne {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(https://ld-wt73.template-help.com/tf/horselin/images/swiper-slide-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectionOne .box-text {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+}
+#sectionOne .box-text p {
+  font-size: 15px;
+}
+#sectionOne .box-text h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  margin: 15px 0;
+}
+#sectionOne .box-text span {
+  font-size: 20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+#sectionOne .box-text a {
+  background-color: green;
+  color: white;
+  margin-top: 25px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 8mm;
+}
+
+#sectionTwo {
+  padding: 4rem 0;
+  background-color: rgba(128, 128, 128, 0.254);
+}
+#sectionTwo h1 {
+  text-align: center;
+}
+#sectionTwo .box {
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+#sectionTwo .box:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.423);
+}
+#sectionTwo .box img {
+  vertical-align: middle;
+}
+#sectionTwo .box .box-text {
+  background-color: white;
+  padding: 20px 0;
+}
+
+@media (max-width: 576px) {
+  #sectionOne .box-text h1 {
+    font-size: 3rem;
+  }
+  #sectionOne .box-text a {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

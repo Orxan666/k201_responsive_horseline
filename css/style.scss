@@ -1,0 +1,89 @@
+@import "_header";
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+// header end
+// ---------------------
+// sectionOne start
+#sectionOne {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://ld-wt73.template-help.com/tf/horselin/images/swiper-slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box-text {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+
+        p {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 6rem;
+            font-weight: 500;
+            margin: 15px 0;
+        }
+
+        span {
+            font-size: 20px;
+            margin: 20px 0;
+            display: inline-block;
+        }
+
+        a {
+            background-color: green;
+            color: white;
+            margin-top: 25px;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 8mm;
+
+        }
+    }
+}
+// sectionOne end
+// -----------
+// #sectionTwo START
+#sectionTwo{
+    padding: 4rem 0;
+    background-color: rgba(128, 128, 128, 0.254);
+    h1{
+        text-align: center
+    }
+    .box{
+        transition: 0.3s ease-in-out;
+        &:hover{
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.423);
+        }
+        text-align: center;
+        img{
+            vertical-align: middle;
+        }
+        .box-text{
+          background-color: white;
+          padding: 20px 0;
+        }
+    }
+}
+
+
+@import '_responsive';
